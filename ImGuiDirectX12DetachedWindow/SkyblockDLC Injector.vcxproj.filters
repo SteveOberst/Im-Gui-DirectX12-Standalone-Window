@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\imgui">
+      <UniqueIdentifier>{2afcc376-23b0-4452-8384-f1f319c65307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\imgui">
+      <UniqueIdentifier>{5f7dcac2-b553-493c-a934-bdfba56f5ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\cpprest">
+      <UniqueIdentifier>{7ef6e230-f3e4-4b4b-a32a-61c3ff606838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\cpprest\details">
+      <UniqueIdentifier>{d6112575-0fb2-4724-bb64-98941c27412b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\pplx">
+      <UniqueIdentifier>{2d0af548-df35-4b89-9199-4d6faeaf6584}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imstb_textedit.h">
+      <Filter>Headerdateien\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imstb_truetype.h">
+      <Filter>Headerdateien\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imconfig.h">
+      <Filter>Headerdateien\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imgui.h">
+      <Filter>Headerdateien\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imgui_impl_dx12.h">
+      <Filter>Headerdateien\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imgui_impl_win32.h">
+      <Filter>Headerdateien\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imgui_internal.h">
+      <Filter>Headerdateien\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imstb_rectpack.h">
+      <Filter>Headerdateien\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawable.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginView.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingView.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="InjectorView.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="icons.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\asyncrt_utils.h">
+      <Filter>Headerdateien\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\base_uri.h">
+      <Filter>Headerdateien\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\containerstream.h">
+      <Filter>Headerdateien\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\filestream.h">
+      <Filter>Headerdateien\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\http_client.h">
+      <Filter>Headerdateien\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\http_compression.h">
+      <Filter>Headerdateien\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\http_headers.h">
+      <Filter>Headerdateien\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\http_listener.h">
+      <Filter>Headerdateien\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\http_msg.h">
+      <Filter>Headerdateien\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\interopstream.h">
+      <Filter>Headerdateien\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\json.h">
+      <Filter>Headerdateien\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\oauth1.h">
+      <Filter>Headerdateien\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\oauth2.h">
+      <Filter>Headerdateien\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\producerconsumerstream.h">
+      <Filter>Headerdateien\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\rawptrstream.h">
+      <Filter>Headerdateien\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\streams.h">
+      <Filter>Headerdateien\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\uri.h">
+      <Filter>Headerdateien\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\uri_builder.h">
+      <Filter>Headerdateien\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\version.h">
+      <Filter>Headerdateien\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\ws_client.h">
+      <Filter>Headerdateien\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\ws_msg.h">
+      <Filter>Headerdateien\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\astreambuf.h">
+      <Filter>Headerdateien\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\details\cpprest_compat.h">
+      <Filter>Headerdateien\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\details\fileio.h">
+      <Filter>Headerdateien\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\details\http_helpers.h">
+      <Filter>Headerdateien\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\details\http_server.h">
+      <Filter>Headerdateien\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\details\http_server_api.h">
+      <Filter>Headerdateien\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\details\nosal.h">
+      <Filter>Headerdateien\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\details\resource.h">
+      <Filter>Headerdateien\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\details\SafeInt3.hpp">
+      <Filter>Headerdateien\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\details\web_utilities.h">
+      <Filter>Headerdateien\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cpprest\details\basic_types.h">
+      <Filter>Headerdateien\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\pplx\pplxinterface.h">
+      <Filter>Headerdateien\pplx</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\pplx\pplxlinux.h">
+      <Filter>Headerdateien\pplx</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\pplx\pplxtasks.h">
+      <Filter>Headerdateien\pplx</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\pplx\pplxwin.h">
+      <Filter>Headerdateien\pplx</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\pplx\threadpool.h">
+      <Filter>Headerdateien\pplx</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\pplx\pplx.h">
+      <Filter>Headerdateien\pplx</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\pplx\pplxcancellation_token.h">
+      <Filter>Headerdateien\pplx</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\pplx\pplxconv.h">
+      <Filter>Headerdateien\pplx</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_tables.cpp">
+      <Filter>Quelldateien\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_widgets.cpp">
+      <Filter>Quelldateien\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui.cpp">
+      <Filter>Quelldateien\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_demo.cpp">
+      <Filter>Quelldateien\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_draw.cpp">
+      <Filter>Quelldateien\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_impl_dx12.cpp">
+      <Filter>Quelldateien\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_impl_win32.cpp">
+      <Filter>Quelldateien\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawable.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginView.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingView.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="InjectorView.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Downloads\dlc.ico">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="includes\cpprest\details\http_constants.dat">
+      <Filter>Headerdateien\cpprest\details</Filter>
+    </None>
+  </ItemGroup>
+</Project>
